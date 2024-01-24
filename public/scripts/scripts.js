@@ -13,8 +13,8 @@ function submitForm() {
   const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: 'envio.de.formulario2024@gmail.com',
-      pass: 'formulario123'
+      user: 'EMAIL',
+      pass: 'SENHA'
     }
   });
 
